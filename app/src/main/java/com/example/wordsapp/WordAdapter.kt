@@ -40,15 +40,14 @@ class WordAdapter(private val letterId: String, context: Context) :
         val words = context.resources.getStringArray(R.array.words).toList()
 
         filteredWords = words
-            // Returns items in a collection if the conditional clause is true,
-            // in this case if an item starts with the given letter,
-            // ignoring UPPERCASE or lowercase.
+            // Mengembalikan item dalam koleksi jika klausa bersyarat benar
+            // mengabaikan UPPERCASE atau huruf kecil.
             .filter { it.startsWith(letterId, ignoreCase = true) }
             // Returns a collection that it has shuffled in place
             .shuffled()
-            // Returns the first n items as a [List]
+            // Mengembalikan collection yang diacak
             .take(5)
-            // Returns a sorted version of that [List]
+            // menampilkan n = 3 pada daftar
             .sorted()
     }
 
@@ -78,10 +77,10 @@ class WordAdapter(private val letterId: String, context: Context) :
     override fun onBindViewHolder(holder: WordViewHolder, position: Int) {
 
         val item = filteredWords[position]
-        // Needed to call startActivity
+        //untuk memanggil startActivity
         val context = holder.view.context
 
-        // Set the text of the WordViewHolder
+        // Mengatur teks WordViewHolder
         holder.button.text = item
         holder.button.setOnClickListener {
             val queryUrl: Uri = Uri.parse("${WordListFragment.SEARCH_PREFIX}${item}")
