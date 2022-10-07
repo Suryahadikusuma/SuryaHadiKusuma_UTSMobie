@@ -9,31 +9,46 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.wordsapp.databinding.FragmentLetterListBinding
 
+//deklarasi class untuk LetterListFragment
 class LetterListFragment : Fragment() {
+    //menambahkan variabel binding jenis FragmentLetterListBinding
     private var _binding: FragmentLetterListBinding? = null
+    //membuat properti baru binding dan tetapkan sama dengan _binding
     private val binding get() = _binding!!
+    //properti untuk tampilan recycler
     private lateinit var recyclerView: RecyclerView
+    //deklarasi properti recyclerView
     private var isLinearLayoutManager = true
+    //mengimplementasikan onCreate() dengan memanggil setHasOptionsMenu()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
     }
+
+    // Implementasikan onCreateView()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        //untuk meng-inflate tampilan dan menyetel nilai _binding
         _binding = FragmentLetterListBinding.inflate(inflater, container, false)
+        // untuk menampilkan tampilan root.
         val view = binding.root
         return view
     }
+
+    //metetapkan nilai properti recyclerView di onViewCreated() dan memanggil chooseLayout()
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         recyclerView = binding.recyclerView
         chooseLayout()
     }
+
+    //setel ulang properti _binding ke null karena tampilan sudah tidak ada
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.layout_menu, menu)
 

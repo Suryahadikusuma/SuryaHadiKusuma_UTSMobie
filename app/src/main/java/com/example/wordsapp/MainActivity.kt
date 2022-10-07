@@ -30,10 +30,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.wordsapp.databinding.ActivityMainBinding
 
 /**
- * Main Activity and entry point for the app. Displays a RecyclerView of letters.
+ * Aktivitas Utama dan juga titik masuk ke dalam aplikasi
+ * untuk Menampilkan RecyclerView huruf.
  */
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
+    //untuk menentukan Layoutmanager(RecyclerView)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
