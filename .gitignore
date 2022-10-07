@@ -40,3 +40,4 @@ project.properties
 # Gradle-based build
 build/
 
+/app/src/main/res/layout/fragment_letter_list.xml
