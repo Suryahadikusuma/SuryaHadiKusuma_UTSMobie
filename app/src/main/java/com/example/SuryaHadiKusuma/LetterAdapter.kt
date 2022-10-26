@@ -1,6 +1,6 @@
-package com.example.wordsapp
+package com.example.SuryaHadiKusuma
 
-import android.content.Intent
+import android.content.Context
 import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
@@ -15,11 +15,11 @@ import androidx.recyclerview.widget.RecyclerView
 /**
  * Adapter for the [RecyclerView] in [MainActivity].
  */
-class LetterAdapter :
+class LetterAdapter ( context: Context) :
     RecyclerView.Adapter<LetterAdapter.LetterViewHolder>() {
 
     // untuk membuatdaftar list dari A sampai Z
-    private val list = ('A').rangeTo('Z').toList()
+    private val list = context.resources.getStringArray(R.array.wilayah).toList()
 
     /**
      * untuk mereferensikan tampilan untuk menampilkan iem dalam daftar

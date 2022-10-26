@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.wordsapp
+package com.example.SuryaHadiKusuma
 
 import android.content.Context
 import android.content.Intent
@@ -26,6 +26,7 @@ import android.view.accessibility.AccessibilityNodeInfo
 import android.widget.Button
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
+import com.example.SuryaHadiKusuma.R
 
 /**
  * Adapter for the [RecyclerView] in [DetailActivity].
@@ -42,11 +43,11 @@ class WordAdapter(private val letterId: String, context: Context) :
         filteredWords = words
             // Mengembalikan item dalam koleksi jika klausa bersyarat benar
             // mengabaikan UPPERCASE atau huruf kecil.
-            .filter { it.startsWith(letterId, ignoreCase = true) }
+            .filter { it.contains(letterId, ignoreCase = true) }
             // Returns a collection that it has shuffled in place
             .shuffled()
             // Mengembalikan collection yang diacak
-            .take(5)
+            .take(50)
             // menampilkan n = 3 pada daftar
             .sorted()
     }

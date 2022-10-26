@@ -1,4 +1,4 @@
-package com.example.wordsapp
+package com.example.SuryaHadiKusuma
 
 import android.os.Bundle
 import android.view.*
@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.wordsapp.databinding.FragmentLetterListBinding
+import com.example.SuryaHadiKusuma.databinding.FragmentLetterListBinding
 
 //deklarasi class untuk LetterListFragment
 class LetterListFragment : Fragment() {
@@ -59,11 +59,11 @@ class LetterListFragment : Fragment() {
         when (isLinearLayoutManager) {
             true -> {
                 recyclerView.layoutManager = LinearLayoutManager(context)
-                recyclerView.adapter = LetterAdapter()
+                recyclerView.adapter = LetterAdapter(requireContext())
             }
             false -> {
                 recyclerView.layoutManager = GridLayoutManager(context, 4)
-                recyclerView.adapter = LetterAdapter()
+                recyclerView.adapter = LetterAdapter(requireContext())
             }
         }
     }

@@ -15,118 +15,119 @@
      limitations under the License.
 -->
 <resources>
+    <string-array name="wilayah">
+        <item>Kota Yogyakarta</item>
+        <item>Sleman</item>
+        <item>Bantul</item>
+        <item>Gunung Kidul</item>
+        <item>Kulon Progo</item>
+    </string-array>
     <string-array name="words">
-        <item>Anggur</item>
-        <item>Apel</item>
-        <item>Alpukat</item>
-        <item>Asam</item>
-        <item>Almon</item>
-        <item>Aprikot</item>
-        <item>Arbei</item>
-        <item>Ara</item>
-        <item>Aren</item>
-        <item>Blimbing</item>
-        <item>Bit</item>
-        <item>Bengkuang</item>
-        <item>Blewah</item>
-        <item>Bluberi</item>
-        <item>Beri</item>
-        <item>Blackcurrant</item>
-        <item>Bayam</item>
-        <item>Bawang</item>
-        <item>Coklat</item>
-        <item>Ceri</item>
-        <item>Cempedak</item>
-        <item>Ceplukan</item>
-        <item>Cempaka</item>
-        <item>Cermai</item>
-        <item>Canberry</item>
-        <item>Delima</item>
-        <item>Durian</item>
-        <item>Duku</item>
-        <item>Duwet</item>
-        <item>Dondong</item>
-        <item>Erbis</item>
-        <item>Frambos</item>
-        <item>Flamboyan</item>
-        <item>Feijoa</item>
-        <item>Gandaria</item>
-        <item>Gandum</item>
-        <item>Gossberry</item>
-        <item>Gowok</item>
-        <item>Gambas</item>
-        <item>Genjer</item>
-        <item>huckleberry</item>
-        <item>Ilama</item>
-        <item>Imbe</item>
-        <item>Illawara</item>
-        <item>Jagung</item>
-        <item>Jamblang</item>
-        <item>Jambu</item>
-        <item>Jeruk</item>
-        <item>Jengkol</item>
-        <item>Kacang</item>
-        <item>Kelengkeng</item>
-        <item>Kelapa</item>
-        <item>Kedondong</item>
-        <item>Kiwi</item>
-        <item>Kurma</item>
-        <item>Kuweni</item>
-        <item>Leco</item>
-        <item>Lemon</item>
-        <item>Lobak</item>
-        <item>Labu</item>
-        <item>Langsat</item>
-        <item>Mangga</item>
-        <item>Melon</item>
-        <item>Markisa</item>
-        <item>Mengkudu</item>
-        <item>Mentimun</item>
-        <item>Matoa</item>
-        <item>Manggis</item>
-        <item>Nanas</item>
-        <item>Nangka</item>
-        <item>Naga</item>
-        <item>Namnam</item>
-        <item>Nektarin</item>
-        <item>Orangelo</item>
-        <item>Ollaliberry</item>
-        <item>Ogeeche</item>
-        <item>Pisang</item>
-        <item>Pear</item>
-        <item>Pepaya</item>
-        <item>Plum</item>
-        <item>Petai</item>
-        <item>Paprika</item>
-        <item>Pinang</item>
-        <item>Queenpa</item>
-        <item>Rambutan</item>
-        <item>Rasberi</item>
-        <item>Rebbung</item>
-        <item>Rambai</item>
-        <item>Rambusa</item>
-        <item>Red Current</item>
-        <item>Salak</item>
-        <item>Sirsak</item>
-        <item>Semangka</item>
-        <item>Strobery</item>
-        <item>Sawo</item>
-        <item>Sirkaya</item>
-        <item>Sukun</item>
-        <item>Tin</item>
-        <item>Timun</item>
-        <item>Talok</item>
-        <item>Terong</item>
-        <item>Ubi</item>
-        <item>Uni</item>
-        <item>Vanili</item>
-        <item>Waluh</item>
-        <item>Wubi</item>
-        <item>Widuri</item>
-        <item>Xinjiang</item>
-        <item>Yangmei</item>
-        <item>Youngberry</item>
-        <item>Yuzu</item>
-        <item>Zaitun</item>
+        <item>Tugu Jogja (Kota Yogyakarta)</item>
+        <item>Malioboro (Kota Yogyakarta)</item>
+        <item>Museum Benteng Vredeburg (Kota Yogyakarta)</item>
+        <item>0 KM (Kota Yogyakarta)</item>
+        <item>Taman Pintar (Kota Yogyakarta)</item>
+        <item>Taman Budaya Yogyakarta (Kota Yogyakarta)</item>
+        <item>Alun-Alun (Kota Yogyakarta)</item>
+        <item>Keraton (Kota Yogyakarta)</item>
+        <item>Taman Sari (Kota Yogyakarta)</item>
+        <item>Gembiraloka Zoo (Kota Yogyakarta)</item>
+        <item>Gudeg Yu Jum (Kota Yogyakarta)</item>
+        <item>Bakpia Pathuk (Kota Yogyakarta)</item>
+
+        <item>Candi Prambanan (Sleman)</item>
+        <item>Candi Sambisari (Sleman)</item>
+        <item>Candi Kalasan (Sleman)</item>
+        <item>Candi Ijo (Sleman)</item>
+        <item>Candi Ratu Boko (Sleman)</item>
+        <item>Candi Abang (Sleman)</item>
+        <item>Candi Banyu Nibo (Sleman)</item>
+        <item>Tebing Breksi (Sleman)</item>
+        <item>Watu Langit (Sleman)</item>
+        <item>Obelix Hills (Sleman)</item>
+        <item>Monjali (Sleman)</item>
+        <item>Museum Merapi (Sleman)</item>
+        <item>Museum Ullen Sentalu (Sleman)</item>
+        <item>Museum Mini Sisa Hartaku (Sleman)</item>
+        <item>The Lost World Castle (Sleman)</item>
+        <item>Gardu Pandang Kaliurang (Sleman)</item>
+        <item>Sindu Kusuma Edupark (Sleman)</item>
+        <item>Jogja Bay (Sleman)</item>
+        <item>Klangon (Sleman)</item>
+        <item>Plunyon Kali Kuning (Sleman)</item>
+        <item>Kali adem kaliurang (Sleman)</item>
+        <item>Kali Talang (Sleman)</item>
+        <item>Telogo Putri Kaliurang (Sleman)</item>
+        <item>Kopi Merapi (Sleman)</item>
+        <item>Mini zoo (Sleman)</item>
+        <item>MStonehenge Cangkringan (Sleman)</item>
+        <item>Merapi Lava Tour (Sleman)</item>
+        <item>Lava Bantal (Sleman)</item>
+        <item>Grojokan Kali Purbo (Sleman)</item>
+        <item>Taman Nasional Gunung Merapi (Sleman)</item>
+        <item>Ledok Sambi (Sleman)</item>
+        <item>Hutan Pinus Ngandong Turi (Sleman)</item>
+
+        <item>Puncak Sosok (Bantul)</item>
+        <item>Kebon Empring (Bantul)</item>
+        <item>Batu Kapal (Bantul)</item>
+        <item>Kebun Buah Mangunan (Bantul)</item>
+        <item>Hutan Pinus Mangunan (Bantul)</item>
+        <item>Sungai Oyo Sriharjo (Bantul)</item>
+        <item>Bukit Panguk (Bantul)</item>
+        <item>Alun Alun Paseban (Bantul)</item>
+        <item>Tebing Watu Mabur Mangunan (Bantul)</item>
+        <item>Makam Raja Raja Imogiri (Bantul)</item>
+        <item>Taman Kuliner Imogiri (Bantul)</item>
+        <item>Bukit Paralayang (Bantul)</item>
+        <item>Pantai Parangtritis (Bantul)</item>
+        <item>Pantai Parangkusumo (Bantul)</item>
+        <item>Gumuk Pasir (Bantul)</item>
+        <item>Pantai Depok (Bantul)</item>
+        <item>Laguna Pantai Depok (Bantul)</item>
+        <item>Pantai Cemoro Sewu (Bantul)</item>
+        <item>Pantai Baru (Bantul)</item>
+        <item>Pantai Kuwaru (Bantul)</item>
+        <item>Pantai Pandansimo (Bantul)</item>
+        <item>Pantai Samas (Bantul)</item>
+        <item>Stadion Sultan Agung (Bantul)</item>
+        <item>Pasar Seni Gabusan (Bantul)</item>
+        <item>Bukit Bintang (Gunung Kidul)</item>
+        <item>Watu Amben (Gunung Kidul)</item>
+        <item>HeHa SKY (Gunung Kidul)</item>
+        <item>HeHa Ocean View (Gunung Kidul)</item>
+        <item>The Mangol (Gunung Kidul)</item>
+        <item>The Manglung (Gunung Kidul)</item>
+        <item>Gunung Api Purba Nglanggeran (Gunung Kidul)</item>
+        <item>Taman Kuliner Wonosari (Gunung Kidul)</item>
+        <item>Hutan Pinus Pengger (Gunung Kidul)</item>
+        <item>Puncak Pinus Becici (Gunung Kidul)</item>
+        <item>Pantai Baron (Gunung Kidul)</item>
+        <item>Pantai Krakal dan Kukup (Gunung Kidul)</item>
+        <item>Pantai Slili (Gunung Kidul)</item>
+        <item>Pantai Watu Kodok (Gunung Kidul)</item>
+        <item>Pantai Indrayanti (Gunung Kidul)</item>
+        <item>Pantai Watu Lawang (Gunung Kidul)</item>
+        <item>Puncak Segoro (Gunung Kidul)</item>
+        <item>Pantai Timang (Gunung Kidul)</item>
+
+        <item>Pantai Glagah Indah (Kulon Progo)</item>
+        <item>Pantai Trisik (Kulon Progo)</item>
+        <item>Hutan Mangrove (Kulon Progo)</item>
+        <item>Waduk Sermo (Kulon Progo)</item>
+        <item>Sungai Mudal (Kulon Progo)</item>
+        <item>Kali Biru (Kulon Progo)</item>
+        <item>Tumpeng Menoreh (Kulon Progo)</item>
+        <item>Kebun Teh Nglinggo (Kulon Progo)</item>
+        <item>Bandara YIA (Kulon Progo)</item>
+        <item>Curug Sidoharjo (Kulon Progo)</item>
+        <item>Air Terjun Kedung Pedut (Kulon Progo)</item>
+        <item>Kopi Ampirono (Kulon Progo)</item>
+        <item>Kopi Ingkar Janji (Kulon Progo)</item>
+        <item>Pawon Widosari (Kulon Progo)</item>
+        <item>Puncak Bukit Ngisis (Kulon Progo)</item>
+        <item>Kembangsoka (Kulon Progo)</item>
+        <item>Puncak Suroloyo (Kulon Progo)</item>
     </string-array>
 </resources>

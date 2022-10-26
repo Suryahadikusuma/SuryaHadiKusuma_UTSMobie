@@ -1,4 +1,4 @@
-package com.example.wordsapp
+package com.example.SuryaHadiKusuma
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.wordsapp.databinding.FragmentWordListBinding
+import com.example.SuryaHadiKusuma.databinding.FragmentWordListBinding
 
 //deklarasi class untuk WordListFragment
 class WordListFragment : Fragment() {
