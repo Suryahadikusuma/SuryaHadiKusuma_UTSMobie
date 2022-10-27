@@ -18,7 +18,7 @@ import androidx.recyclerview.widget.RecyclerView
 class LetterAdapter ( context: Context) :
     RecyclerView.Adapter<LetterAdapter.LetterViewHolder>() {
 
-    // untuk membuatdaftar list dari A sampai Z
+    // untuk memanggil daftar wilayah dari array
     private val list = context.resources.getStringArray(R.array.wilayah).toList()
 
     /**
@@ -52,6 +52,7 @@ class LetterAdapter ( context: Context) :
     override fun onBindViewHolder(holder: LetterViewHolder, position: Int) {
         val item = list.get(position)
         holder.button.text = item.toString()
+        // mengatur buton untuk berpindah lokasi dari daftar wilayah ke destinasi wisata
         holder.button.setOnClickListener {
             val action = LetterListFragmentDirections.actionLetterListFragmentToWordListFragment(letter = holder.button.text.toString())
             holder.view.findNavController().navigate(action)

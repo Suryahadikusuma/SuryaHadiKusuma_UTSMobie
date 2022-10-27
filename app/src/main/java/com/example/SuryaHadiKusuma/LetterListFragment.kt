@@ -55,6 +55,8 @@ class LetterListFragment : Fragment() {
         val layoutButton = menu.findItem(R.id.action_switch_layout)
         setIcon(layoutButton)
     }
+    //digunakan untuk mengatur layout dengan recyclerView
+    //ke dalam bentuk linear layout atau grid layout
     private fun chooseLayout() {
         when (isLinearLayoutManager) {
             true -> {
@@ -67,7 +69,8 @@ class LetterListFragment : Fragment() {
             }
         }
     }
-
+    //untuk mengatur icon pada menu recyclerView
+    //ke dalam bentuk linear layout atau grid layout
     private fun setIcon(menuItem: MenuItem?) {
         if (menuItem == null)
             return

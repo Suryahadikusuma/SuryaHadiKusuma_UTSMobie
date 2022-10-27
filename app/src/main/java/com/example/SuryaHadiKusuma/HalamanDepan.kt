@@ -18,6 +18,7 @@ private const val ARG_PARAM2 = "param2"
  * Use the [HalamanDepan.newInstance] factory method to
  * create an instance of this fragment.
  */
+//halaman depan dengan menggunakan fragment
 class HalamanDepan : Fragment() {
     // TODO: Rename and change types of parameters
     private var _binding: FragmentHalamanDepanBinding? = null
@@ -38,7 +39,8 @@ class HalamanDepan : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        //button yang berfungsi untuk berpindah halaman awal ke
+        // leter list fragment dengan menggunakan navigasi
         binding.button.setOnClickListener {
             findNavController().navigate(R.id.action_halamanDepan_to_letterListFragment)
         }
