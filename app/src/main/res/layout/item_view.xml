@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!--ini merupakan button untuk menu pada halaman-->
-<!--word list fragment dan leter list fragment-->
+<!--ini merupakan button untuk menu terletak di bagian atas-->
 <Button xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/button_item"
     android:layout_width="match_parent"
