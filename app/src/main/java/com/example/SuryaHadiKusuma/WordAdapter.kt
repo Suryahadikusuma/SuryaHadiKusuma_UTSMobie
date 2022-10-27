@@ -37,7 +37,7 @@ class WordAdapter(private val letterId: String, context: Context) :
     private val filteredWords: List<String>
 
     init {
-        // Retrieve the list of words from res/values/arrays.xml
+        // untuk mengmbil daftar kata dari res/values/arrays.xml
         val words = context.resources.getStringArray(R.array.words).toList()
 
         filteredWords = words
@@ -48,7 +48,7 @@ class WordAdapter(private val letterId: String, context: Context) :
             .shuffled()
             // Mengembalikan collection yang diacak
             .take(50)
-            // menampilkan n = 3 pada daftar
+            // menampilkan n = 50 pada daftar
             .sorted()
     }
 

@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources>
+    //array untuk menampilkan wilayah pada word list fragment
     <string-array name="wilayah">
         <item>Kota Yogyakarta</item>
         <item>Sleman</item>
@@ -22,6 +23,8 @@
         <item>Gunung Kidul</item>
         <item>Kulon Progo</item>
     </string-array>
+
+    //array untuk menampilkan destinasi wisata pada leter list fragment
     <string-array name="words">
         <item>Tugu Jogja (Kota Yogyakarta)</item>
         <item>Malioboro (Kota Yogyakarta)</item>

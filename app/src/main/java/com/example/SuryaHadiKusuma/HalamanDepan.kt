@@ -40,7 +40,7 @@ class HalamanDepan : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         //button yang berfungsi untuk berpindah halaman awal ke
-        // leter list fragment dengan menggunakan navigasi
+        //leter list fragment dengan menggunakan navigasi
         binding.button.setOnClickListener {
             findNavController().navigate(R.id.action_halamanDepan_to_letterListFragment)
         }

@@ -28,7 +28,7 @@ import com.example.SuryaHadiKusuma.databinding.ActivityMainBinding
  */
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
-    //untuk menentukan Layoutmanager(RecyclerView)
+    //untuk menentukan Layout manager(RecyclerView)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
